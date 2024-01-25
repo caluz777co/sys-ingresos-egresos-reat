@@ -1,0 +1,48 @@
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    flex: 1; /* por defecto, cada elemento tiene el mismo ancho */
+    margin: 5px;
+    padding: 2px;
+    border: 1px solid none;
+    border-radius: 20px;
+
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.233);
+}
+
+.flex-item:last-child {
+    flex: 4; /* el primer elemento tiene el doble de ancho que el segundo */
+}
+
+.column-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar {
+    height: 14vh;
+}
+
+.menu {
+    height: 70vh;
+    padding: 10px;
+}
+
+.footer {
+    height: 10vh;
+}
+
+.info-name {
+    height: 5vh;
+    padding: 10px;
+}
+
+.info-values {
+    height: 20vh;
+}
+
+.edit-area {
+    height: 70vh;
+}

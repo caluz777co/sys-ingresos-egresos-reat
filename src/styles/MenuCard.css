@@ -1,0 +1,23 @@
+.MenuCard {
+    /* Estilos para el contenedor del menú */
+    background-color: #f2f2f2;
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.MenuCard button {
+    /* Estilos para el botón de abrir/cerrar */
+    background-color: #007bff;
+    color: #fff;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.MenuCard .content {
+    /* Estilos para el contenido del acordeón */
+    display: none;
+    padding: 10px;
+    background-color: #007bff;
+    border: 1px solid #ccc;
+}

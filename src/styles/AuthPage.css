@@ -1,0 +1,108 @@
+/* Estilos del contenedor principal */
+.container {
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sombra suave alrededor del contenedor */
+    background-color: #ffffff;
+    /* Fondo blanco para el contenedor */
+    border-radius: 8px;
+    /* Bordes redondeados para el contenedor */
+}
+
+.logo {
+    display: block;
+    margin: 0 auto 20px;
+    /* Centrar el logo y añadir margen inferior */
+    width: 100px;
+    /* Tamaño del logo */
+    height: 100px;
+    /* Tamaño del logo */
+    background-color: #4CAF50;
+    /* Color de fondo del logo, ajustable */
+    border-radius: 50%;
+    /* Hacer el logo redondo */
+}
+
+/* Estilos del título */
+.title {
+    text-align: center;
+    margin-bottom: 20px;
+    /* Espacio debajo del título */
+    font-size: 24px;
+    /* Tamaño del texto del título */
+    color: #333333;
+    /* Color del texto del título */
+}
+
+/* Estilos de los campos de texto */
+.input-field {
+    width: 100%;
+    /* Ancho completo dentro del contenedor */
+    padding: 10px;
+    margin-bottom: 15px;
+    /* Espacio entre campos de texto */
+    border: 1px solid #cccccc;
+    /* Borde de los campos de texto */
+    border-radius: 4px;
+    /* Bordes redondeados para los campos de texto */
+    box-sizing: border-box;
+    /* El padding y el borde se incluyen en el ancho total */
+}
+
+/* Estilos del botón */
+.button {
+    width: 100%;
+    /* Ancho completo dentro del contenedor */
+    padding: 10px;
+    margin-top: 20px;
+    /* Espacio encima del botón */
+    border: none;
+    border-radius: 4px;
+    /* Bordes redondeados para el botón */
+    background-color: #008CBA;
+    /* Color de fondo del botón, ajustable */
+    color: white;
+    /* Color del texto del botón */
+    cursor: pointer;
+    /* Cambiar el cursor a puntero cuando se pasa sobre el botón */
+    font-size: 16px;
+    /* Tamaño del texto del botón */
+}
+
+/* Estilo del botón al pasar el mouse */
+.button:hover {
+    background-color: #005f73;
+    /* Color de fondo del botón al pasar el mouse */
+}
+
+/* Añadiendo transición suave al botón para hover */
+.button {
+    transition: background-color 0.3s;
+}
+
+.button {
+    background-color: #4CAF50;
+    /* Color de fondo del botón */
+    color: #ffffff;
+    /* Color del texto del botón */
+    font-weight: bold;
+    /* Texto del botón en negrita */
+}
+
+/* Ajustar el estilo del botón cuando el usuario pasa el cursor por encima */
+.button:hover {
+    background-color: #45a049;
+    /* Oscurecer el color del botón ligeramente
+  al pasar el cursor */
+}
+
+/* Ajustes de estilo para los campos de entrada de texto para reflejar el mockup */
+.input-field {
+    background-color: #f9f9f9;
+    /* Cambiar el color de fondo de los campos de texto */
+    border: 2px solid #ddd;
+    /* Cambiar el grosor y color del borde de los campos de texto */
+    color: #666;
+    /* Cambiar el color del texto dentro de los campos de texto */
+}
